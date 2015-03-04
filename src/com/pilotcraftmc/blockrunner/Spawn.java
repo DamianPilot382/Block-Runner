@@ -1,4 +1,4 @@
-package src.com.pilotcraftmc.blockrunner;
+package com.pilotcraftmc.blockrunner;
 
 import java.util.Random;
 

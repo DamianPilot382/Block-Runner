@@ -13,7 +13,7 @@ import com.pilotcraftmc.blockrunner.Game;
 
 public class Menu {
 	
-	Image img1 = Toolkit.getDefaultToolkit().getImage("pcslogo.png");
+	//Image img1 = Toolkit.getDefaultToolkit().getImage("res/pcslogo.png");
 	
 	public static Rectangle playButton = new Rectangle(0, 245, Game.WIDTH - 7, 20);
 	public static Rectangle characterButton = new Rectangle(0, 285, Game.WIDTH - 7, 20);
@@ -31,7 +31,7 @@ public class Menu {
 		
 		g.setColor(Color.white);
 		
-		g.drawImage(img1, 415,35,200,100,null);
+		//g.drawImage(img1, 415,35,200,100,null);
 				
 		g.setFont(new Font("arial", Font.BOLD, 50));
 		g.drawString("Block Runner", Game.WIDTH / 2 - 275, 100);

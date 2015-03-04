@@ -21,12 +21,10 @@ public class Credits {
 		g.setFont(new Font("arial", Font.BOLD, 50));
 		g.drawString("Credits", Game.WIDTH / 2 - 100, 60);
 		g.setFont(new Font("arial", Font.BOLD, 20));
-		g.drawString("Created by Damian Ugalde \"DamianPilot382\"", 10, 170);
+		g.drawString("Damian Ugalde", 10, 170);
 		g.drawString("Pilotcraft Systems", 10, 215);
 		g.drawString("Version: BETA 0.1", 10, 260);
-		g.drawString("Description: Wave-Based Survival", 10, 305);
-		g.drawString("Special Thanks to Mr. Garrett Shorr", 10, 350);
-		g.drawString("\u00a9 Copyright, Pilotcraft Systems, 2015", 10, 440);
+		g.drawString("Special Thanks to Mr. Garrett Shorr", 10, 305);
 		g2d.draw(backButton);
 		g.drawString("Back", backButton.x + 15, backButton.y + 27);
 
