@@ -52,7 +52,13 @@ public class Game extends Canvas implements Runnable{
 	//Game State Declaration
 	public static STATE State = STATE.MENU;
 	
-	//Game Constructor
+	/***
+	 * Game Constructor
+	 * 
+	 * Creates a JFrame and all the elements needed
+	 * to run the game, then displays the Main Menu.
+	 * 
+	 */
 	public Game(){
 		
 		//GUI Initialization
@@ -90,7 +96,12 @@ public class Game extends Canvas implements Runnable{
 		
 	}//End of Game Constructor
 	
-	//Start Method
+	/***
+	 * Start Method
+	 * 
+	 * Called when the JFrame starts.
+	 * 
+	 */
 	public synchronized void start(){
 		//Start Thread
 		thread = new Thread(this);
@@ -99,7 +110,12 @@ public class Game extends Canvas implements Runnable{
 		running = true;
 	}//End of Start Method
 	
-	//Stop Method
+	/**
+	 *Stop Method
+	 *
+	 * Called when the game and main Game Loop end.
+	 * 
+	 */
 	public synchronized static void stop(){
 		try{
 			//Stop Thread
@@ -113,7 +129,12 @@ public class Game extends Canvas implements Runnable{
 		}
 	}//End of Stop Method
 	
-	//Run Method
+	/**
+	 * Run Method
+	 * 
+	 * This method includes the main Game Loop.
+	 * 
+	 */
 	public void run(){
 		
 		//MAIN GAME LOOP
@@ -147,7 +168,12 @@ public class Game extends Canvas implements Runnable{
 		stop(); //End of Game Loop
 	}//End of Run Method
 	
-	//Tick Method
+	/**
+	 * Tick Method
+	 * 
+	 * Calls of the Tick Methods of every object that have one.
+	 * 
+	 */
 	private void tick(){
 		
 		//Tick if the game started
@@ -165,7 +191,11 @@ public class Game extends Canvas implements Runnable{
 		
 	}//End of Tick Method
 	
-	//Render Method
+	/**
+	 *Render Method 
+	 * 
+	 * Calls all of the Tick Methods of every objects that have one.
+	 */
 	private void render(){
 		BufferStrategy bs = this.getBufferStrategy();
 		if(bs == null){
@@ -236,7 +266,13 @@ public class Game extends Canvas implements Runnable{
 		
 	}//End of Render Method
 	
-	
+	/**
+	 * DrawMenuEnemies
+	 * 
+	 * Adds the MenuEnemies into the menuhandler,
+	 * so that they can be displayed in the Main Menu.
+	 * 
+	 */
 	private void drawMenuEnemies(){
 		
 		for(int i = 1; i <= 10; i++){
@@ -245,7 +281,17 @@ public class Game extends Canvas implements Runnable{
 
 	}
 	
-	//Clamp Method
+	/**
+	 * Clamp Method
+	 * 
+	 * Takes in a value and keep that value
+	 * between to acceptable values.
+	 * 
+	 * @param var variable to be clamped
+	 * @param min minimum value the variable may have
+	 * @param max maximum value the variable may have
+	 * @return the clamped value.
+	 */
 	public static float clamp(float var, float min, float max){
 		if(var >= max)
 			return var = max;
@@ -255,6 +301,13 @@ public class Game extends Canvas implements Runnable{
 			return var;
 	}//End of Clamp Method
 	
+	/**
+	 * ResetGame
+	 * 
+	 * After the player's health reaches 0,
+	 * the game will reset so that it can be played again.
+	 * 
+	 */
 	public void resetGame(){
 		handler = null;
 		handler = new Handler();
