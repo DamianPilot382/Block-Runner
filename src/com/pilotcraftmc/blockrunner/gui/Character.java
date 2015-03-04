@@ -1,3 +1,11 @@
+/**
+ * Character Class
+ * 
+ * Generates a menu that allows you to change
+ * your player's color, name, and look at the acievements.
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;

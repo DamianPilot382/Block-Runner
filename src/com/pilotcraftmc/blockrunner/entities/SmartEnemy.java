@@ -1,3 +1,12 @@
+/**
+ * SmartEnemy
+ * 
+ * Third enemy, this character will follow
+ * the main player.
+ * 
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Color;

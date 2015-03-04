@@ -1,3 +1,13 @@
+/**
+ * GameObject Abstract Class
+ * 
+ * Abstract class to create a GameObject,
+ * that can interact with other GameObjects
+ * inside the game.
+ * 
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Graphics;

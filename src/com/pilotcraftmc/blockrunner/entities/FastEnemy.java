@@ -1,3 +1,13 @@
+/**
+ * FastEnemy
+ * 
+ * Second Enemy,
+ * will bounce when it reaches the walls and
+ * moves at a high speed.
+ * 
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Color;

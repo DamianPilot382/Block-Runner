@@ -1,3 +1,10 @@
+/**
+ * Store Class
+ * 
+ * Allows the user to purchase useful items
+ * inside the game, using the in-game coins.
+ * 
+ */
 package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;

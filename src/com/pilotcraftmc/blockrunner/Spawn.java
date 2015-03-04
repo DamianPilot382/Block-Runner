@@ -1,3 +1,12 @@
+/**
+ * Spawn Class
+ * 
+ * Creates the enemies in each level,
+ * updates the level and coins variables in HUD Class,
+ * and checks the player's health.
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner;
 
 import java.util.Random;
@@ -5,6 +14,7 @@ import java.util.Random;
 import com.pilotcraftmc.blockrunner.entities.BasicEnemy;
 import com.pilotcraftmc.blockrunner.entities.FastEnemy;
 import com.pilotcraftmc.blockrunner.entities.SmartEnemy;
+
 
 public class Spawn {
 	

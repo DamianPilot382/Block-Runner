@@ -1,3 +1,10 @@
+/**
+ * KeyInput Class
+ * 
+ * Listens to the keys the user types,
+ * and allows them to be used in the game.
+ * 
+ */
 package com.pilotcraftmc.blockrunner.input;
 
 import java.awt.event.KeyAdapter;

@@ -8,20 +8,26 @@ import java.awt.Rectangle;
 
 import com.pilotcraftmc.blockrunner.entities.Player;
 
-
+//HEADS-UP DISPLAY
 public class HUD {
 	
+	//Health of the Player
 	public static int HEALTH = 100;
 	
+	//Value for the green color in the player's health bar.
 	public static int greenValue = 255;
 	
+	//Counters for the player
 	public static int score = 0;
 	public static int level = 1;
 	public static int coins = 1;
 	
+	//PAUSE BUTTON
 	public static Rectangle rectangle = new Rectangle(0,0, 220, 105);
+	//STORE BUTTON
 	public static Rectangle storeRectangle = new Rectangle(8, 398, 100, 50);
 	
+	//TICK Method
 	public void tick(){
 		
 		HEALTH = (int) Game.clamp((float)HEALTH, (float)0, (float)100);

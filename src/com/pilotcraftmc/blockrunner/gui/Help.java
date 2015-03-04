@@ -1,3 +1,11 @@
+/**
+ * Help Class
+ * 
+ * Menu that displays help options
+ * for the user to understand the game.
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;

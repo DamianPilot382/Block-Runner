@@ -1,20 +1,23 @@
+/**
+ * Menu Class
+ * 
+ * Shows the Main Menu, that allow the user
+ * select other menus or play the game.
+ */
+
 package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.Image;
 import java.awt.Rectangle;
-import java.awt.Toolkit;
 import java.util.Random;
 
 import com.pilotcraftmc.blockrunner.Game;
 
 public class Menu {
-	
-	//Image img1 = Toolkit.getDefaultToolkit().getImage("res/pcslogo.png");
-	
+		
 	public static Rectangle playButton = new Rectangle(0, 245, Game.WIDTH - 7, 20);
 	public static Rectangle characterButton = new Rectangle(0, 285, Game.WIDTH - 7, 20);
 	public static Rectangle helpButton = new Rectangle(0, 325, Game.WIDTH - 7, 20);
@@ -30,9 +33,7 @@ public class Menu {
 		Graphics2D g2d = (Graphics2D) g;
 		
 		g.setColor(Color.white);
-		
-		//g.drawImage(img1, 415,35,200,100,null);
-				
+						
 		g.setFont(new Font("arial", Font.BOLD, 50));
 		g.drawString("Block Runner", Game.WIDTH / 2 - 275, 100);
 		

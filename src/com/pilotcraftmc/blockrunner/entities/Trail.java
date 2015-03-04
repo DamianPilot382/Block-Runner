@@ -1,3 +1,11 @@
+/**
+ * Trail Class
+ * Generates the "Tail" seen after the
+ * GameObjects move in the game or the Main Menu.
+ * 
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.AlphaComposite;

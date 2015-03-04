@@ -1,3 +1,11 @@
+/**
+ * MouseInput Class
+ * 
+ * Listens to the mouse input,
+ * and allows it to be used in the application.
+ * 
+ * 
+ */
 package com.pilotcraftmc.blockrunner.input;
 
 import java.awt.event.MouseEvent;

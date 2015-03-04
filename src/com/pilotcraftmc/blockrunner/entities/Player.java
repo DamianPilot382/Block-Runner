@@ -1,3 +1,11 @@
+/**
+ * Player Class
+ * Creates the main character,
+ * the user will be able to move with the keys
+ * W, A, S, and D.
+ * 
+ * 
+ */
 package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Color;

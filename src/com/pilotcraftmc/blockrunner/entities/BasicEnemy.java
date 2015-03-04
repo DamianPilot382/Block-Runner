@@ -1,3 +1,14 @@
+/**
+ * BasicEnemy
+ * 
+ * Object for the first basic enemy,
+ * this enemy will follow a straight line,
+ * bouncing when it reaches the walls of the screen,
+ * with a medium speed.
+ * 
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Color;

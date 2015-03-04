@@ -1,3 +1,10 @@
+/**
+ * Pause Menu
+ * 
+ * This menu appears during the game
+ * to allow the user to pause the game.
+ * 
+ */
 package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;

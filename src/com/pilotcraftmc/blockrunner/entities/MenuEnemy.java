@@ -1,3 +1,14 @@
+/**
+ * MenuEnemy
+ * 
+ * Copy of the BasicEnemy,
+ * it is used as a decoration
+ * inside the Main Menu.
+ * 
+ * 
+ */
+
+
 package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Color;

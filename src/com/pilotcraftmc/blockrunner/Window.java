@@ -1,3 +1,11 @@
+/**
+ * Window Class
+ * 
+ * Generates the main JFrame,
+ * that will display the contents of the game.
+ * 
+ * 
+ */
 package com.pilotcraftmc.blockrunner;
 
 import java.awt.Canvas;

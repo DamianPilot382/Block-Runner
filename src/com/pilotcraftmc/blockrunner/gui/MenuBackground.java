@@ -1,3 +1,13 @@
+/**
+ * MenuBackground Class
+ * 
+ * Contains the "MenuEnemy.java" objects,
+ * used as decoration, and displays them in the
+ * Main Menu.
+ * 
+ * 
+ */
+
 package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Graphics;

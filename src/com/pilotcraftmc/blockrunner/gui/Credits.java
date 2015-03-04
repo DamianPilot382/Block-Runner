@@ -1,3 +1,9 @@
+/**
+ * Credits Class
+ * 
+ * Menu that shows the credits for the game.
+ * 
+ */
 package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;
