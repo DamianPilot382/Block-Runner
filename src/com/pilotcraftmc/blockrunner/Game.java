@@ -311,6 +311,8 @@ public class Game extends Canvas implements Runnable{
 	public void resetGame(){
 		handler = null;
 		handler = new Handler();
+		spawner = null;
+		spawner = new Spawn(handler, hud);
 		
 		//Player added to the MAIN HANDLER
 		handler.addObject(new Player(WIDTH/2-32, HEIGHT/2-32, ID.Player, handler));
