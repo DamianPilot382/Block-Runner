@@ -1,3 +1,5 @@
+package src.com.pilotcraftmc.blockrunner;
+
 /**
  * Spawn Class
  * 
@@ -7,7 +9,7 @@
  * 
  */
 
-package com.pilotcraftmc.blockrunner;
+ 
 
 import java.util.Random;
 

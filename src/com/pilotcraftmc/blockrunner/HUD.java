@@ -1,4 +1,6 @@
-package com.pilotcraftmc.blockrunner;
+package src.com.pilotcraftmc.blockrunner;
+
+ 
 
 import java.awt.Color;
 import java.awt.Font;

@@ -1,3 +1,5 @@
+package src.com.pilotcraftmc.blockrunner;
+
 /**
  * 
  * Copyright, Pilotcraft Systems, 2015.
@@ -11,7 +13,7 @@
  * 
  */
 
-package com.pilotcraftmc.blockrunner;
+ 
 
 //MAIN CLASS
 public class Main {

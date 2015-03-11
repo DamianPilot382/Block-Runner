@@ -4,7 +4,7 @@
  * Menu that shows the credits for the game.
  * 
  */
-package com.pilotcraftmc.blockrunner.gui;
+package gui;
 
 import java.awt.Color;
 import java.awt.Font;
