@@ -5,7 +5,7 @@
  * inside the game, using the in-game coins.
  * 
  */
-package gui;
+package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;
 import java.awt.Font;

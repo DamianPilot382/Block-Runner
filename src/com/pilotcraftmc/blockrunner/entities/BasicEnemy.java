@@ -9,7 +9,7 @@
  * 
  */
 
-package entities;
+package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Color;
 import java.awt.Graphics;

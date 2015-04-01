@@ -8,7 +8,7 @@
  * 
  */
 
-package entities;
+package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;

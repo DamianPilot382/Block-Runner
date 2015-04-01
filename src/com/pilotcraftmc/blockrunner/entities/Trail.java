@@ -6,7 +6,7 @@
  * 
  */
 
-package entities;
+package com.pilotcraftmc.blockrunner.entities;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;

@@ -5,7 +5,7 @@
  * to allow the user to pause the game.
  * 
  */
-package gui;
+package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Color;
 import java.awt.Font;

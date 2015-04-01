@@ -1,4 +1,0 @@
-#BlueJ class context
-comment0.params=width\ height\ title\ game
-comment0.target=Window(int,\ int,\ java.lang.String,\ Game)
-numComments=1

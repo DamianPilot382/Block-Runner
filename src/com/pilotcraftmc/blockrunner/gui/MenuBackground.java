@@ -8,7 +8,7 @@
  * 
  */
 
-package gui;
+package com.pilotcraftmc.blockrunner.gui;
 
 import java.awt.Graphics;
 import java.util.Random;
