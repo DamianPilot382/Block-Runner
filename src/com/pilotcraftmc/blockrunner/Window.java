@@ -1,3 +1,5 @@
+package com.pilotcraftmc.blockrunner;
+
 /**
  * Window Class
  * 
@@ -6,7 +8,7 @@
  * 
  * 
  */
-package com.pilotcraftmc.blockrunner;
+ 
 
 import java.awt.Canvas;
 import java.awt.Dimension;

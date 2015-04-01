@@ -1,3 +1,5 @@
+package com.pilotcraftmc.blockrunner;
+
 /**
  * Handler Class
  * 
@@ -6,7 +8,7 @@
  * making it easier to render and tick all of the objects.
  * 
  */
-package com.pilotcraftmc.blockrunner;
+ 
 
 import java.awt.Graphics;
 import java.util.LinkedList;

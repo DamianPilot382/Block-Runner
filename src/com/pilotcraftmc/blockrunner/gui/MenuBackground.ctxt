@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=g\ menuHandler
+comment0.target=void\ render(java.awt.Graphics,\ Handler)
+comment1.params=
+comment1.target=void\ addMenu()
+numComments=2

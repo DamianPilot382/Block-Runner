@@ -1,3 +1,5 @@
+package com.pilotcraftmc.blockrunner;
+
 /**
  * ID Enum Class
  * 
@@ -6,7 +8,7 @@
  * 
  */
 
-package com.pilotcraftmc.blockrunner;
+ 
 
 public enum ID {
 	

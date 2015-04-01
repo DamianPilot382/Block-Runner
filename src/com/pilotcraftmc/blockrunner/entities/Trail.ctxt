@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y\ id\ color\ width\ height\ life\ handler
+comment0.target=Trail(int,\ int,\ ID,\ java.awt.Color,\ int,\ int,\ float,\ Handler)
+comment1.params=
+comment1.target=void\ tick()
+comment2.params=g
+comment2.target=void\ render(java.awt.Graphics)
+comment3.params=alpha
+comment3.target=java.awt.AlphaComposite\ makeTransparent(float)
+comment4.params=
+comment4.target=java.awt.Rectangle\ getBounds()
+numComments=5

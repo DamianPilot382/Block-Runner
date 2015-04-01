@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ id\ handler
+comment0.target=SmartEnemy(int,\ int,\ ID,\ Handler)
+comment1.params=
+comment1.target=java.awt.Rectangle\ getBounds()
+comment2.params=
+comment2.target=void\ tick()
+comment3.params=g
+comment3.target=void\ render(java.awt.Graphics)
+numComments=4

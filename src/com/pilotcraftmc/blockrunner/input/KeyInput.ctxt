@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=handler
+comment0.target=KeyInput(Handler)
+comment1.params=e
+comment1.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment2.params=e
+comment2.target=void\ keyReleased(java.awt.event.KeyEvent)
+numComments=3
