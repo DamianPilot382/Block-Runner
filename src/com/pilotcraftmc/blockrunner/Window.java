@@ -12,6 +12,7 @@ package com.pilotcraftmc.blockrunner;
 
 import java.awt.Canvas;
 import java.awt.Dimension;
+import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 
@@ -32,7 +33,7 @@ public class Window extends Canvas{
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);
 		frame.setLocationRelativeTo(null);
-		
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(Window.class.getResource("/blockicon.png")));
 	
 		frame.add(game);
 		frame.setVisible(true);
