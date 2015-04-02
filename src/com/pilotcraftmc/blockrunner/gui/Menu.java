@@ -11,9 +11,10 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Image;
 import java.awt.Rectangle;
+import java.awt.Toolkit;
 import java.util.Random;
-
 import com.pilotcraftmc.blockrunner.Game;
 
 public class Menu {
@@ -30,13 +31,16 @@ public class Menu {
 		
 	public void render(Graphics g){
 		
+		Image blockLogo = Toolkit.getDefaultToolkit().getImage(Menu.class.getResource("/blocklogo.png"));
+		Image pcsLogo = Toolkit.getDefaultToolkit().getImage(Menu.class.getResource("/pcslogo.png"));
+		
+		g.drawImage(blockLogo, Game.WIDTH / 2 - 150, 5, 300, 150, null);
+		g.drawImage(pcsLogo, 450, 140, 175, 100, null);
+		
 		Graphics2D g2d = (Graphics2D) g;
 		
 		g.setColor(Color.white);
-						
-		g.setFont(new Font("arial", Font.BOLD, 50));
-		g.drawString("Block Runner", Game.WIDTH / 2 - 275, 100);
-		
+								
 		g.setColor(Color.white);
 		g.setFont(new Font("verdana", Font.BOLD, 15));
 		g.drawString("Play", 15, 260);
@@ -45,15 +49,13 @@ public class Menu {
 		g.drawString("Credits", 15, 380);
 		g.drawString("Quit", 15, 420);
 		g.setFont(new Font("arial", Font.ITALIC, 15));
-		g.drawString("Version: BETA 0.1", 500, 445);
-		
+		g.drawString("Version: BETA 0.5", 500, 445);	
 		
 		g2d.draw(playButton);
 		g2d.draw(characterButton);
 		g2d.draw(helpButton);
 		g2d.draw(creditsButton);
 		g2d.draw(quitButton);
-
 		
 	}
 	

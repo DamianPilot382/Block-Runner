@@ -16,12 +16,14 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 
 public class Window extends Canvas{
+	
+	public JFrame frame;
 
 	private static final long serialVersionUID = 1003642461191986390L;
 	
 	public Window(int width, int height, String title, Game game){
 		
-		JFrame frame = new JFrame(title);
+		frame = new JFrame(title + " | BETA 0.5");
 		
 		frame.setPreferredSize(new Dimension(width, height));
 		frame.setMaximumSize(new Dimension(width, height));
