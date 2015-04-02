@@ -24,7 +24,7 @@ public class Window extends Canvas{
 	
 	public Window(int width, int height, String title, Game game){
 		
-		frame = new JFrame(title + " | BETA 0.5");
+		frame = new JFrame(title + " | " + Game.VERSION);
 		
 		frame.setPreferredSize(new Dimension(width, height));
 		frame.setMaximumSize(new Dimension(width, height));

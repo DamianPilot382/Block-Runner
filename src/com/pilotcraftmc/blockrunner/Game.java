@@ -11,6 +11,8 @@ import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 import java.util.Random;
 
+import com.pilotcraftmc.blockrunner.entities.EnemyBoss;
+
 import com.pilotcraftmc.blockrunner.entities.BasicEnemy;
 import com.pilotcraftmc.blockrunner.entities.MenuEnemy;
 import com.pilotcraftmc.blockrunner.entities.Player;
@@ -25,6 +27,8 @@ import com.pilotcraftmc.blockrunner.input.MouseInput;
 
 //Game Class Declaration
 public class Game extends Canvas implements Runnable{
+	
+	public static final String VERSION = "BETA 0.5";
 	
 	private static final long serialVersionUID = 1L;
 	

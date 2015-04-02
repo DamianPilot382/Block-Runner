@@ -54,10 +54,10 @@ public class Player extends GameObject{
 			
 			GameObject tempObject = handler.object.get(i);
 			
-			if(tempObject.getId() == ID.BasicEnemy || tempObject.getId() == ID.FastEnemy || tempObject.getId() == ID.SmartEnemy){
+			if(tempObject.getId() == ID.BasicEnemy || tempObject.getId() == ID.FastEnemy || tempObject.getId() == ID.SmartEnemy || tempObject.getId() == ID.EnemyBoss){
 				if(getBounds().intersects(tempObject.getBounds())){
 					//collision code
-					HUD.HEALTH -= 2;
+					HUD.HEALTH -= 1;
 				}
 			}
 			
@@ -85,8 +85,25 @@ public class Player extends GameObject{
 	
 
 	public void render(Graphics g) {
+		
 		g.setColor(Color.white);
+		
+		for (int i = 0; i < handler.object.size(); i++) {
+			
+			GameObject tempObject = handler.object.get(i);
+			
+			if(tempObject.getId() == ID.BasicEnemy || tempObject.getId() == ID.FastEnemy || tempObject.getId() == ID.SmartEnemy || tempObject.getId() == ID.EnemyBoss){
+				if(getBounds().intersects(tempObject.getBounds())){
+					
+					g.setColor(Color.red);
+					
+				}
+			}
+			
+		}
+		
 		g.fillRect((int)x, (int)y, 32, 32);
+		
 	}
 	
 	

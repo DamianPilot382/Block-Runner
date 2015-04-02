@@ -49,7 +49,7 @@ public class Menu {
 		g.drawString("Credits", 15, 380);
 		g.drawString("Quit", 15, 420);
 		g.setFont(new Font("arial", Font.ITALIC, 15));
-		g.drawString("Version: BETA 0.5", 500, 445);	
+		g.drawString("Version: " + Game.VERSION, 500, 445);	
 		
 		g2d.draw(playButton);
 		g2d.draw(characterButton);
