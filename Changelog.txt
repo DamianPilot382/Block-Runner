@@ -2,7 +2,6 @@
 
 ## [Unreleased][unreleased]
 ### Changed
-- Improve argument against commit logs.
 
 ## BETA 0.1
 ### Changed
