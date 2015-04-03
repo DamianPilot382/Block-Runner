@@ -86,6 +86,10 @@ public class KeyInput extends KeyAdapter {
 			if(key == KeyEvent.VK_C){
 				handler.addObject(new SmartEnemy(r.nextInt(Game.WIDTH - 50), r.nextInt(Game.HEIGHT - 50), ID.SmartEnemy, handler));
 			}
+			
+			if(key == KeyEvent.VK_Z){
+				HUD.HEALTH = 100;
+			}
 		
 		}
 		

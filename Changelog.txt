@@ -1,0 +1,36 @@
+# Change Log | Block-Runner | Pilotcraft Systems
+
+## [Unreleased][unreleased]
+### Changed
+- Improve argument against commit logs.
+
+## BETA 0.1
+### Changed
+- First upload
+- The main gameplay with the BasicEnemy is implemented.
+
+## BETA 0.2
+### Changed
+- FastEnemy is implemented.
+- SmartEnemy is implemented.
+
+## BETA 0.3
+### Changed
+- Main Menu is implemented.
+- HUD is upgraded.
+- Store button added, altough the store doesn't work.
+
+## BETA 0.4
+### Changed
+- Main Menu's background is upgraded.
+- BasicEnemy's color is changed to orange
+- FastEnemy's color is changed to multi-color.
+
+## BETA 0.5
+### Changed
+- Level time is lowered.
+- Damage taken by collision with an enemy is lowered.
+
+## BETA 0.6
+### Changed
+- First Boss is added.

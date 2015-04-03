@@ -37,9 +37,9 @@ public class HUD {
 		
 		score++;
 		
-		if(HEALTH <= 0){
+		/*if(HEALTH <= 0){
 			Game.State = STATE.GAME_OVER;
-		}
+		}*/
 		
 	}
 	

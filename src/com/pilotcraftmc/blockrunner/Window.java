@@ -18,7 +18,7 @@ import javax.swing.JFrame;
 
 public class Window extends Canvas{
 	
-	public JFrame frame;
+	public static JFrame frame;
 
 	private static final long serialVersionUID = 1003642461191986390L;
 	
